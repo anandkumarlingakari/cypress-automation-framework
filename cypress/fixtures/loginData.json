@@ -1,0 +1,26 @@
+{
+  "email": "testuser@guru99.com",
+  "password": "Test@123",
+  "text": {
+    "label": {
+      "loginBlankErrorMessage": "Required",
+      "errorMessage": "Both username and password are required."
+    }
+  },
+  "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+  "errorMessages": {
+    "blankField": "Required",
+    "invalidCredentials": "Invalid credentials",
+    "email":"test@gmail.com"
+  },
+  "users": {
+    "validUser": {
+      "username": "Admin",
+      "password": "admin123"
+    },
+    "invalidUser": {
+      "username": "wrongUser",
+      "password": "wrongPassword"
+    }
+  }
+}

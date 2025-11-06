@@ -1,0 +1,24 @@
+{
+  "name": "cypress-automation-scripts",
+  "version": "1.0.0",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.3.1",
+    "@badeball/cypress-cucumber-preprocessor": "^23.2.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.7",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@simonsmith/cypress-image-snapshot": "^10.0.3",
+    "cypress": "^15.6.0",
+    "cypress-downloadfile": "^1.2.4",
+    "cypress-iframe": "^1.0.1",
+    "cypress-wait-until": "^3.0.2",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.19.12"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/step_definitions/**/*.{js,ts}"
+  }
+}

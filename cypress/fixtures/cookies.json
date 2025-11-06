@@ -1,0 +1,12 @@
+{
+  "cookie": {
+    "name": "orangehrm",
+    "value": "mho506u5g6hcg7o5cdsc6i0rdb",
+    "path": "/web",
+    "secure": true,
+    "hostOnly": true,
+    "httpOnly": true,
+    "domain": "opensource-demo.orangehrmlive.com",
+    "sameSite": "lax"
+  }
+}

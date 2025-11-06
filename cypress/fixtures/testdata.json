@@ -1,0 +1,11 @@
+{
+  "city": "Vizag",
+  "phone": "913232322",
+  "email": "testuser@gmail.com",
+  "passwordone": "admin123",
+  "username": "username",
+  "validemail": "testuser007@gmail.com",
+  "password": "Test1234",
+  "invalidemail": "hello@cypress.io"
+  
+}
